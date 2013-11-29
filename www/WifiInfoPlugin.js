@@ -1,3 +1,19 @@
+var WifiInfo= function() {
+};
+
+WifiInfo.prototype.get = function(success, fail) {
+                PhoneGap.exec(success, success, 'WifiInfoPlugin', null, [] );
+};
+
+cordova.addConstructor(function() {
+
+        if (!window.plugins) {
+                window.plugins = {};
+        }
+        window.plugins.WifiInfo = new WifiInfo();
+});
+
+/*
 var calendar = {
     createEvent: function(title, location, notes, startDate, endDate, successCallback, errorCallback) {
         cordova.exec(
@@ -16,3 +32,4 @@ var calendar = {
     }
 }
 module.exports = calendar;
+*/
