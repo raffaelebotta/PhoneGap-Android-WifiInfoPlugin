@@ -23,4 +23,7 @@
 
         <source-file src="src/android/WifiInfoPlugin.java" target-dir="src/org/devgirl/calendar" />      
      </platform>          
+     
+<uses-permission android:name="$PACKAGE_NAME.permission.ACCESS_WIFI_STATE"/>
+     
 </plugin>
