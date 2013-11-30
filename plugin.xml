@@ -10,7 +10,6 @@
 
 
     <js-module src="www/WifiInfoPlugin.js" name="WifiInfoPlugin">
-        <clobbers target="window.calendar" />
     </js-module>
 
     <!-- android -->
