@@ -16,7 +16,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="WifiInfoPlugin">
-                <param name="android-package" value="org.devgirl.calendar.Calendar"/>
+                <param name="android-package" value="net.buzzstops.wifi.WifiInfoPlugin"/>
             </feature>
         </config-file>
 
