@@ -20,6 +20,6 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/WifiInfoPlugin.java" target-dir="src/org/devgirl/calendar" />      
+        <source-file src="src/android/WifiInfoPlugin.java" target-dir="src/net/buzzstops/wifi" />      
      </platform>          
 </plugin>
