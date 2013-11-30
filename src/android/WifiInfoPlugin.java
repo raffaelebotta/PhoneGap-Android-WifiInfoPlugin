@@ -1,4 +1,4 @@
-package org.apache.cordova.plugin;
+package net.buzzstops.wifi;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
