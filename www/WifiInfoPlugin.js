@@ -1,5 +1,5 @@
 var WifiInfo = {
-    get: function(successCallback, errorCallback) {
+    pippo: function(successCallback, errorCallback) {
         cordova.exec (
             successCallback,
             errorCallback,
