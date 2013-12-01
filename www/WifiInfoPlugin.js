@@ -1,5 +1,5 @@
 var WifiInfo = {
-    createEvent: function(successCallback, errorCallback) {
+    get: function(successCallback, errorCallback) {
         cordova.exec (
             successCallback,
             errorCallback,
@@ -10,4 +10,4 @@ var WifiInfo = {
     }
 }
 
-module.exports = calendar;
+module.exports = WifiInfo;
