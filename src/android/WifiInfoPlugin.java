@@ -13,7 +13,7 @@ import android.net.wifi.WifiManager;
 
 public class WifiInfoPlugin extends CordovaPlugin { 
 
-	@Override 
+	@Override
 	public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
 		
 		Context context = cordova.getActivity().getApplicationContext();
