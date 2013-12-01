@@ -22,5 +22,8 @@
         </config-file>
 
         <source-file src="src/android/WifiInfoPlugin.java" target-dir="src/net/buzzstops/wifi" />      
+        
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        
      </platform>          
 </plugin>
