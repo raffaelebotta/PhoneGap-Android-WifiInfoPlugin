@@ -10,6 +10,7 @@
 
 
     <js-module src="www/WifiInfoPlugin.js" name="WifiInfoPlugin">
+        <clobbers target="window.WifiInfo" />
     </js-module>
 
     <!-- android -->
