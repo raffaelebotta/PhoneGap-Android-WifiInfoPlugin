@@ -1,10 +1,8 @@
-alert('111');
-
 var WifiInfo = {
-    get: function(success, error) {
+    createEvent: function(successCallback, errorCallback) {
         cordova.exec (
-            success,
-            error,
+            successCallback,
+            errorCallback,
             'WifiInfoPlugin',
             null,
             []
@@ -12,8 +10,4 @@ var WifiInfo = {
     }
 }
 
-alert('222');
-
-module.exports = WifiInfo;
-
-alert('333');
+module.exports = calendar;
