@@ -50,7 +50,7 @@ public class WifiInfoPlugin extends CordovaPlugin {
 			
 		} catch (JSONException e) {
 			//e.printStackTrace();
-			callbackContext.error(obj);
+			callbackContext.error();
 			//return true;
 		}
 		callbackContext.success(obj);
