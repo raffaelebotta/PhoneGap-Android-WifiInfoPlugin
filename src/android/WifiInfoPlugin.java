@@ -49,7 +49,7 @@ public class WifiInfoPlugin extends CordovaPlugin {
 	        
 			
 		} catch (JSONException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			callbackContext.error("JSON Exception");
 			return false;
 		}
